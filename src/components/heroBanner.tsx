@@ -18,7 +18,7 @@ export default function HeroBanner() {
                 <h2 className="text-lg text-center text-slate-400 font-bold">Automated Competitive and Market Intelligence <br /> for B2B SaaS Marketing & Sales</h2>
                 <div className="flex items-center gap-2 border border-gray-800 rounded-full p-1 text-normal font-semibold">
                     <input type="text" placeholder="Enter your email" className="px-4 bg-slate-900 focus:outline-none" />
-                    <button className="py-2 px-4 bg-gradient-to-b from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 transition rounded-full">Get Started Free</button>
+                    <button className="py-2 px-4 bg-purple-500 rounded-full">Get Started Free</button>
                 </div>
                 <div className="flex items-center gap-2 text-slate-500 ">
                     <p>No risk 14-day trial period</p>

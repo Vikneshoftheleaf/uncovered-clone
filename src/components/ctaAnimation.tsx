@@ -110,7 +110,7 @@ export default function CtaAnimation() {
                         </div>
                     </div>
                 </Marquee>
-                <div className="z-20 pointer-events-none absolute left-0 top-0 h-full w-16 bg-gradient-to-r from-gray-500 to-transparent"></div>
+                <div className="z-20 pointer-events-none absolute right-0 top-0 h-full w-16 bg-gradient-to-r from-gray-500 to-transparent"></div>
 
                 <div className="z-20 pointer-events-none absolute right-0 top-0 h-full w-16 bg-gradient-to-l from-gray-500 to-transparent"></div>
 
