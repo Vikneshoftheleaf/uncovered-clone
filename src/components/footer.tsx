@@ -1,11 +1,12 @@
 import Link from "next/link"
+import Image from "next/image"
 export default function Footer() {
     return (
         <>
             <div className="flex max-w-5xl mx-auto items-center gap-4 mt-8">
-                <hr className="w-full border-gray-400" />
-                <p>.</p>
-                <hr className="w-full border-gray-400" />
+                <div className="w-full h-px bg-gradient-to-r from-transparent via-neutral-400 to-neutral-400"></div>
+                <Image className="invert" src={'https://www.svgrepo.com/show/532293/star-alt-4.svg'} alt="star" height={12} width={12}></Image>
+                <div className="w-full h-px bg-gradient-to-r from-transparent via-neutral-400 to-neutral-400"></div>
             </div>
 
             <footer>
