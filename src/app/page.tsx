@@ -7,16 +7,20 @@ import Pricing from "@/components/pricing"
 import CTA from "@/components/cta"
 import Footer from "@/components/footer"
 import FAQ from "@/components/faq"
+import Hero from "@/components/HeroBanner2"
+import FeaturesList from "@/components/FeaturesList"
+import PricingTable from "@/components/pricing2"
+import FAQs from "@/components/faq2"
 export default function HomePage() {
   return (
     <>
     <NavBar/>
-    <HeroBanner/>
+    <Hero/>
     <Brands/>
+    <FeaturesList/>
     <Features/>
-    <CtaAnimation/>
-    <Pricing/>
-    <FAQ/>
+    <PricingTable/>
+    <FAQs/>
     <CTA/>
     <Footer/>
     </>
